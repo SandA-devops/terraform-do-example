@@ -4,9 +4,9 @@
 The terraform example within this repository will setup the following
 resources:
 
-    * A Droplet
-    * A firewall rule
-    * DNS Records
+* A Droplet
+* A firewall rule
+* DNS Records
 
 
 You will need to generate a token on the DigitalOcean control panel 
