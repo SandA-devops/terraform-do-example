@@ -1,0 +1,8 @@
+#!/bin/bash
+sudo apt-get update -qq
+sudo apt-get install apache2 -qq
+sudo curl https://raw.githubusercontent.com/hashicorp/learn-terraform-digitalocean-droplet/main/app/index.php -O
+sudo rm -f /var/www/html/index.html
+sudo mv index.php /var/www/html
+sudo systemctl restart apache2
+
